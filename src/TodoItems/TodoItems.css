@@ -1,0 +1,54 @@
+.todoItems{
+    display: grid;
+    margin: 10px 0;
+    grid-template-columns: auto 2fr auto;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+
+    height: 40px;
+    border-radius: 15px;
+    background-color: white;
+    color: #909090;
+
+}
+
+.todoItems span{
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    margin: 0 15px;
+    border: none;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.icon:nth-child(1):hover{
+    border: 1px solid #BCE7A9;
+}
+.iconCheckActive{
+    border: 1px solid #BCE7A9;
+    background-color: #BCE7A9;
+}
+
+.todoCompleted{
+    text-decoration: line-through;
+}
+
+.icon:nth-child(3):hover{
+    border: 1px solid #FF9090;
+    background-color: #FF9090;
+    cursor: pointer;
+}
+.icon img{
+    width: 100%;
+    opacity: 0.5;
+}
+.todoText{
+    font-size: 14px;
+    margin: 0;
+}
