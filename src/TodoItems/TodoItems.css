@@ -27,8 +27,13 @@
     cursor: pointer;
 }
 
-.icon:nth-child(1):hover{
+.itemsCheckActive{
+    background-color: #F2F2F2;
+}
+
+.icon-check:hover{
     border: 1px solid #BCE7A9;
+    background-color: #BCE7A9;
 }
 .iconCheckActive{
     border: 1px solid #BCE7A9;
@@ -39,7 +44,7 @@
     text-decoration: line-through;
 }
 
-.icon:nth-child(3):hover{
+.icon-delete:hover{ 
     border: 1px solid #FF9090;
     background-color: #FF9090;
     cursor: pointer;
