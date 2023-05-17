@@ -1,10 +1,11 @@
 import {TodoIcons} from "./TodoIcons.js"
 
-function DeleteIcon() {
+function DeleteIcon({onDelete}) {
     return (
         <TodoIcons
             type="delete"
-            color="red"
+            color="gray"
+            onClick={onDelete}
         />
     );
 }

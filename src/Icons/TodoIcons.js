@@ -2,14 +2,15 @@ import {ReactComponent as CheckSVG } from "./check.svg";
 import {ReactComponent as DeleteSVG } from "./delete.svg";
 
 const iconTypes = {
-    "check": <CheckSVG/>,
-    "delete": <DeleteSVG/>,
+    "check": (color) => <CheckSVG className="icon-svg" fill={color}/>,
+    "delete": (color) => <DeleteSVG className="icon-svg" fill={color}/>,
 };
 
-function TodoIcons({type}) {
+function TodoIcons({type, color, completed, onClick}) {
     return(
-        <span className={`icon icon-svg icon-${type}`}>
-            {iconTypes[type]}
+        <span className={`icon icon-${type} ${completed && "iconCheckActive"}`}
+            onClick={onClick} >
+                {iconTypes[type](color)}
         </span>
     )
 }

@@ -1,3 +1,4 @@
+/* Contenedor del todo Li */
 .todoItems{
     display: grid;
     margin: 10px 0;
@@ -12,7 +13,11 @@
     color: #909090;
 
 }
+.itemsCheckActive{
+    background-color: #F2F2F2;
+}
 
+/* Spans para los iconos */
 .todoItems span{
     box-sizing: border-box;
     width: 25px;
@@ -27,33 +32,45 @@
     cursor: pointer;
 }
 
-.itemsCheckActive{
-    background-color: #F2F2F2;
-}
-
+/* Icon Check */
 .icon-check:hover{
     border: 1px solid #BCE7A9;
-    background-color: #BCE7A9;
+}
+.icon-check:hover .icon-svg{
+    fill: green;
 }
 .iconCheckActive{
-    border: 1px solid #BCE7A9;
+    border: 2px solid #BCE7A9;
     background-color: #BCE7A9;
 }
 
-.todoCompleted{
-    text-decoration: line-through;
-}
 
+/* Icon Delete */
 .icon-delete:hover{ 
     border: 1px solid #FF9090;
     background-color: #FF9090;
     cursor: pointer;
 }
+.icon-delete:hover .icon-svg{ 
+    fill: red;
+}
+
+/* SVGs */
+.icon-svg{
+    width: 100%;
+}
+
+/* Iconos-Imagen-v1 */
 .icon img{
     width: 100%;
     opacity: 0.5;
 }
+
+/* Texto del Todo */
 .todoText{
     font-size: 14px;
     margin: 0;
+}
+.todoCompleted{
+    text-decoration: line-through;
 }
