@@ -1,4 +1,4 @@
-import {TodoIcons} from "./TodoIcons.js"
+import {TodoIcons} from "./index.js"
 
 function DeleteIcon({onDelete}) {
     return (

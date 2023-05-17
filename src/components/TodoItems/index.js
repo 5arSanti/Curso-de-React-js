@@ -1,9 +1,7 @@
 import "./TodoItems.css"
-// import done from "../Icons/Done.png"
-// import close from "../Icons/Close.png"
 
-import {CompleteIcon} from "../Icons/CompleteIcon.js"
-import {DeleteIcon} from "../Icons/DeleteIcon.js"
+import {CompleteIcon} from "../TodoIcons/CompleteIcon.js"
+import {DeleteIcon} from "../TodoIcons/DeleteIcon.js"
 function TodoItems(props) {
     return(
         <li className={`todoItems ${props.completed && "itemsCheckActive"}`}>
