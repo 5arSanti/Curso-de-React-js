@@ -1,0 +1,65 @@
+.addTodoForm{
+    width: 60%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: auto 2fr auto;
+    background-color: #3D3D3D;
+    opacity: .9;
+    align-items: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.addTodoForm:hover{
+    background-color: #4F4F4F;
+}
+
+.icon{
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    margin: 0 20px;
+    border: none;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+}
+
+/* Icon Add */
+.addTodoForm .icon-add{
+    rotate: 45deg;
+}
+.addTodoForm .icon-add:hover{
+    border: 2px solid white;
+}
+.addTodoForm .icon-check:hover .icon-svg{
+    fill: white;
+}
+
+/* Icon Delete */
+.addTodoForm .icon-delete:hover{ 
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+/* SVGs */
+.addTodoForm .icon-svg{
+    width: 100%;
+    fill: white;
+}
+
+/* Input */
+.addTodoInput{
+    height: 35px;
+    background: none;
+    outline: none;
+    border: 0;
+    color: white;
+    border-left: 1px solid #646464;
+    padding-left: 10px;
+}
+.addTodoInput::placeholder{
+    color: 646464;
+}

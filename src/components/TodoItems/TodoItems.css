@@ -33,10 +33,10 @@
 }
 
 /* Icon Check */
-.icon-check:hover{
+.todoItems .icon-check:hover{
     border: 1px solid #BCE7A9;
 }
-.icon-check:hover .icon-svg{
+.todoItems .icon-check:hover .icon-svg{
     fill: green;
 }
 .iconCheckActive{
@@ -46,12 +46,12 @@
 
 
 /* Icon Delete */
-.icon-delete:hover{ 
+.todoItems .icon-delete:hover{ 
     border: 1px solid #FF9090;
     background-color: #FF9090;
     cursor: pointer;
 }
-.icon-delete:hover .icon-svg{ 
+.todoItems .icon-delete:hover .icon-svg{ 
     fill: red;
 }
 

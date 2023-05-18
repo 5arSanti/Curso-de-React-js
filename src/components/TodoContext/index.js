@@ -12,6 +12,8 @@ function TodoProvider({children}) {
             error,
         } = useLocalStorage("TODOS_v1", []);
         const [searchValue, setSearchValue] = React.useState("");
+        const [openModal, setOpenModal] = React.useState(false);
+
     
     
         //TodoCounter
@@ -47,6 +49,9 @@ function TodoProvider({children}) {
             saveTodos(newTodos);
         }
 
+        //Abrir y cerrar Modal
+
+
     return(
         <TodoContext.Provider value={{
             loading,
@@ -58,6 +63,8 @@ function TodoProvider({children}) {
             searchedTodos,
             completeTodo,
             deleteTodo,
+            openModal,
+            setOpenModal,
         }}>
             {children}
         </TodoContext.Provider>
