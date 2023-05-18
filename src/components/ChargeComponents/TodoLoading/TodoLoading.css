@@ -1,0 +1,50 @@
+.todoLoadingContainer{
+    margin: 8px 0;
+    width: 100%;
+
+    height: 45px;
+    border-radius: 10px;
+    background-color: white;
+
+    background: linear-gradient(90deg,#C4C4C4, #F5F5F5);
+    background-size: 400% 400%;
+    animation: loadingAnimation 2s ease-in-out infinite;
+}
+
+@keyframes loadingAnimation{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.loadingIcon{
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    margin: 0 15px;
+    border: none;
+    border-radius: 100%;
+    padding: 6px;
+
+
+    background: linear-gradient(-45deg,#C4C4C4, #F5F5F5);
+    background-size: 400% 400%;
+    animation: loadingAnimation 2s ease-in-out infinite;
+}
+
+.loadingText{
+    width: 90%;
+    height: 20px;
+    margin: 0;
+    border-radius: 10px;
+
+    background: linear-gradient(-45deg,#C4C4C4, #F5F5F5);
+    background-size: 400% 400%;
+    animation: loadingAnimation 2s ease-in-out infinite;
+}
