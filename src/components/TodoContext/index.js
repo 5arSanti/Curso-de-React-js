@@ -14,7 +14,7 @@ function TodoProvider({children}) {
         const [searchValue, setSearchValue] = React.useState("");
         const [openModal, setOpenModal] = React.useState(false);
 
-    
+
     
         //TodoCounter
         const completedTodos = todos.filter(todo => !!todo.completed).length;
@@ -49,7 +49,16 @@ function TodoProvider({children}) {
             saveTodos(newTodos);
         }
 
-        //Abrir y cerrar Modal
+        //AñadirTodo
+        const addNewTodo = (text) => {
+            const newTodos = [...todos];
+            newTodos.push({
+                text,
+                completed: false,
+            }); 
+            saveTodos(newTodos);
+
+        }
 
 
     return(
@@ -65,6 +74,7 @@ function TodoProvider({children}) {
             deleteTodo,
             openModal,
             setOpenModal,
+            addNewTodo,
         }}>
             {children}
         </TodoContext.Provider>

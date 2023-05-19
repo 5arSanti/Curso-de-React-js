@@ -1,5 +1,6 @@
 import {TodoIcons} from "./index.js"
-function AddIcon({completed, onComplete}) {
+
+function AddIcon() {
     return (
         <TodoIcons
             type="add"

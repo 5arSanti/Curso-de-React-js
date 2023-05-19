@@ -1,5 +1,6 @@
-/* Contenedor del todo Li */
+/* Contenedor del Todo Li */
 .todoItems{
+    border-left: 5px solid #8B00FF;
     display: grid;
     margin: 8px 0;
     grid-template-columns: auto 2fr auto;
@@ -9,12 +10,14 @@
 
     height: 45px;
     border-radius: 10px;
-    background-color: white;
+    background: #FFFFFF;
     color: #909090;
 
 }
 .itemsCheckActive{
     background-color: #F2F2F2;
+    border-left: 5px solid #B8FF99;
+
 }
 
 /* Spans para los iconos */
@@ -34,14 +37,14 @@
 
 /* Icon Check */
 .todoItems .icon-check:hover{
-    border: 1px solid #BCE7A9;
+    border: 1px solid #B8FF99;
 }
 .todoItems .icon-check:hover .icon-svg{
     fill: green;
 }
 .iconCheckActive{
-    border: 2px solid #BCE7A9;
-    background-color: #BCE7A9;
+    border: 2px solid #B8FF99;
+    background-color: #B8FF99;
 }
 
 
