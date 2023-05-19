@@ -1,12 +1,20 @@
 # Repositorio base del Curso de Introducción a React.js en Platzi
 
-¡Hola, Platzinauta!
+# TODO Machine
+### Presentación:
+En este texto, voy a presentar y describir una aplicación que he creado con ReactJs, JavaScript, HTML y CSS. Se trata de una aplicación web que permite al usuario gestionar sus tareas pendientes de una forma sencilla e intuitiva. La aplicación tiene las siguientes características y funcionalidades:
 
-En este repositorio encontrarás el código de todas las clases del [Curso de Introducción a React.js](https://platzi.com/reactjs). Para empezar solo debes clonar este repositorio (`git clone`), instalar sus dependencias (`npm i`) y ejecutar la aplicación (`npm start`).
+[TODO Machine by 5arSanti](https://5arsanti.github.io/Curso-de-React-js/ "TODO Machine by 5arSanti")
 
-La rama principal contiene el código con el que eempezamos el curso. En las demás ramas encontrarás el código de las siguientes clases y finalmente el deploy de la aplicación.
+[![Portada](https://imagizer.imageshack.com/img922/4475/f3L6wk.png "Portada")](http://imagizer.imageshack.com/img922/4475/f3L6wk.png "Portada")
 
-¡Mucha suerte aprendiendo React! #NuncaParesDeAprender
+- La interfaz de usuario es responsive y se adapta a diferentes tamaños de pantalla.
+- El usuario puede crear, marcar como completadas y eliminar tareas. También puede filtrar las tareas por el  nombre de la tarea y borrar las tareas completadas.
+- Cada tarea tiene su descripción, y una fecha límite opcional.
+- La aplicación utiliza el localStorage del navegador para guardar los datos de las tareas, de forma que se mantienen aunque el usuario cierre la página o cambie de dispositivo.
+- La aplicación está desarrollada con ReactJs, que es una librería de JavaScript para crear interfaces de usuario dinámicas y reactivas. También se utiliza JavaScript para la lógica de la aplicación y para interactuar con el localStorage.
+- Para el diseño y el estilo de la aplicación, se utiliza html y css. Se emplea la metodología BEM (Block Element Modifier) para nombrar las clases de css y facilitar la modularidad y la reutilización del código.
+- La aplicación está disponible en el siguiente enlace: https://5arsanti.github.io/Curso-de-React-js/
 
 ## Getting Started with Create React App
 
