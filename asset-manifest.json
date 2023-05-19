@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/5arSanti/Curso-de-React-js/static/css/main.47e1782e.css",
+    "main.js": "/5arSanti/Curso-de-React-js/static/js/main.d579e599.js",
+    "index.html": "/5arSanti/Curso-de-React-js/index.html",
+    "static/media/delete.svg": "/5arSanti/Curso-de-React-js/static/media/delete.2cfbc54deebd87d7ea9cf648765e70a5.svg",
+    "static/media/check.svg": "/5arSanti/Curso-de-React-js/static/media/check.ec0a68811eaff4a8aabfbaf34839ccbf.svg",
+    "main.47e1782e.css.map": "/5arSanti/Curso-de-React-js/static/css/main.47e1782e.css.map",
+    "main.d579e599.js.map": "/5arSanti/Curso-de-React-js/static/js/main.d579e599.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47e1782e.css",
+    "static/js/main.d579e599.js"
+  ]
+}
