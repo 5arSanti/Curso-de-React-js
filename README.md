@@ -1,5 +1,3 @@
-# Repositorio base del Curso de Introducción a React.js en Platzi
-
 # TODO Machine
 ### Presentación:
 En este texto, voy a presentar y describir una aplicación que he creado con ReactJs, JavaScript, HTML y CSS. Se trata de una aplicación web que permite al usuario gestionar sus tareas pendientes de una forma sencilla e intuitiva. La aplicación tiene las siguientes características y funcionalidades:
